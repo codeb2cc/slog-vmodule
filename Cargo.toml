@@ -1,0 +1,16 @@
+[package]
+name = "slog-vmodule"
+version = "0.1.0"
+authors = ["Codeb Fan <codeb2cc@gmail.com>"]
+edition = "2018"
+description = "Module based level filter Drain for slog-rs"
+keywords = ["slog", "logging", "log", "filter", "module"]
+license = "MIT"
+documentation = "https://docs.rs/slog-vmodule"
+homepage = "https://github.com/codeb2cc/slog-vmodule"
+repository = "https://github.com/codeb2cc/slog-vmodule"
+readme = "README.md"
+
+
+[dependencies]
+slog = "2"
