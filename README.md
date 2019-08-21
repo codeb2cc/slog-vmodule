@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/codeb2cc/slog-vmodule.svg?branch=master)](https://travis-ci.org/codeb2cc/slog-vmodule)
+[![codecov](https://codecov.io/gh/codeb2cc/slog-vmodule/branch/master/graph/badge.svg)](https://codecov.io/gh/codeb2cc/slog-vmodule)
+
 
 # slog-vmodule - Module based level filter Drain for [slog-rs]
 

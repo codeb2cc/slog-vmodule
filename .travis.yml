@@ -1,4 +1,5 @@
 language: rust
+cache: cargo
 rust:
   - stable
   - beta
@@ -9,7 +10,17 @@ script:
   - cargo clippy
   - cargo build --release
   - cargo test
+  - |
+    cargo tarpaulin --out Xml
+    bash <(curl -s https://codecov.io/bash)
 
 env:
   global:
     - RUST_BACKTRACE=1
+
+before_cache:
+  - cargo install cargo-tarpaulin -f
+before_script:
+  - rustup component add rustfmt
+  - rustup component add clippy
+
