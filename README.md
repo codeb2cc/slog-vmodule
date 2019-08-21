@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/codeb2cc/slog-vmodule.svg?branch=master)](https://travis-ci.org/codeb2cc/slog-vmodule)
 [![codecov](https://codecov.io/gh/codeb2cc/slog-vmodule/branch/master/graph/badge.svg)](https://codecov.io/gh/codeb2cc/slog-vmodule)
+[![docs.rs](https://docs.rs/slog-vmodule/badge.svg)](https://docs.rs/slog-vmodule)
+[![crates.io](https://img.shields.io/crates/v/slog-vmodule.svg)](https://crates.io/crates/slog-vmodule)
 
 
 # slog-vmodule - Module based level filter Drain for [slog-rs]

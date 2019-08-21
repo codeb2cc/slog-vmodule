@@ -19,7 +19,7 @@ env:
     - RUST_BACKTRACE=1
 
 before_cache:
-  - cargo install cargo-tarpaulin -f
+  - cargo install cargo-tarpaulin
 before_script:
   - rustup component add rustfmt
   - rustup component add clippy
